@@ -37,7 +37,7 @@ export class App extends Component {
     this.setState({data : JsonData})
   }
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.getData()
   }
 
